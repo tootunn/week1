@@ -1,0 +1,79 @@
+body {
+	background-color: #F2F2F2;
+	line-height: 2.0;
+	font-family: "M PLUS Rounded 1c";
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+.fontSubAccent {
+	font-family: 'Noto Sans SC', sans-serif;
+}
+.fontAccent {
+	/*font-family: 'Fredoka One', cursive;*/
+	font-family: 'Permanent Marker', cursive;
+
+	letter-spacing: 2px;
+}
+img {
+	max-width: 100%;
+}
+.fullScreen {
+	height: 100vh;
+	width: 100vw;
+}
+.bkWhite {
+	background-color: #ffffff;
+}
+.bkGraPurpleBlue {
+	background: linear-gradient(90deg, #E400FF, #00807A);
+}
+.bkAccent {
+	background-color: #FF4F73;
+}
+.colorAccent {
+	color: #FF4F73;	
+}
+.colorWhite {
+	color: #ffffff !important;
+}
+.shadowBlack {
+	box-shadow: 5px 5px 15px #00000024;
+}
+.radius10 {
+	border-radius: 10px;
+}
+
+
+.ctaBox {
+	color: white;
+	padding: 15px 40px;
+	border-radius: 100px;
+}
+.passBox {
+	border: none;
+	color: white;
+	padding: 15px 40px;
+	border-radius: 100px;
+}
+.passBox::placeholder{
+	color: #ffffff;
+}
+
+.subTitleSecond {
+	position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.circleM {
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	background-color: #3a7cb5;
+	border-radius: 50%;
+	color: #ffffff;
+}
